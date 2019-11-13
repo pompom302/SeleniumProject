@@ -1,4 +1,4 @@
-package durgaSoft;
+package BasicJavaScripts;
 
 public class FibonacciWithRecursion {
 

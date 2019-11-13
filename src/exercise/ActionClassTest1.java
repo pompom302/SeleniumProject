@@ -1,7 +1,6 @@
 package exercise;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -19,8 +18,7 @@ public class ActionClassTest1 {
 		Thread.sleep(1000);
 		
 		WebElement women = driver.findElement(By.linkText("WOMEN"));
-		
-		
+				
 		Actions builder = new Actions(driver);
 		builder.moveToElement(women).build().perform();
 		Thread.sleep(2000);
@@ -32,13 +30,5 @@ public class ActionClassTest1 {
 		for(WebElement a : womenSuggestions) {
 			System.out.println(a.getText());
 		}
-		
-		
-		
-		
-		
-		
-
 	}
-
 }

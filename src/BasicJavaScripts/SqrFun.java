@@ -1,6 +1,6 @@
 //part 15
 
-package durgaSoft;
+package BasicJavaScripts;
 
 public class SqrFun {
 

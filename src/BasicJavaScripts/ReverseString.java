@@ -1,4 +1,4 @@
-package durgaSoft;
+package BasicJavaScripts;
 
 
 import java.util.Scanner;

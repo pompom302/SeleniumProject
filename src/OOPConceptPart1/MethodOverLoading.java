@@ -26,6 +26,7 @@ public class MethodOverLoading {
 		obj.sum(1);
 		obj.sum(2.5);
 		obj.sum(1, 3);
+		//contructors define properties. property has to be same bt value can vary
 		
 	}
 
